@@ -1,0 +1,97 @@
+.item1 {
+  grid-area: result;
+}
+
+.item2 {
+  grid-area: clear;
+}
+
+.item3 {
+  grid-area: divide;
+}
+
+.item4 {
+  grid-area: multiple;
+}
+
+.item5 {
+  grid-area: minus;
+}
+
+.item6 {
+  grid-area: num7;
+}
+
+.item7 {
+  grid-area: num8;
+}
+
+.item8 {
+  grid-area: num9;
+}
+
+.item9 {
+  grid-area: plus;
+}
+
+.item10 {
+  grid-area: num4;
+}
+
+.item11 {
+  grid-area: num5;
+}
+
+.item12 {
+  grid-area: num6;
+}
+
+.item13 {
+  grid-area: calcola;
+}
+
+.item14 {
+  grid-area: num1;
+}
+
+.item15 {
+  grid-area: num2;
+}
+
+.item16 {
+  grid-area: num3;
+}
+
+.item17 {
+  grid-area: num0;
+}
+
+.item18 {
+  grid-area: point;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 50px 50px 50px;
+  /*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  grid-template-areas: 'result result result result' 'clear divide multiple minus' 'num7 num8 num9 plus' 'num4 num5 num6 plus' 'num1 num2 num3 calcola' 'num0 num0 point calcola'
+}
+
+.grid-container>div {
+  background-color: #2196F3;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.item1 {
+  height: 30px;
+}
